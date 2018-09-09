@@ -1,0 +1,26 @@
+{
+  "name": "time-series-buffer",
+  "version": "1.0.0",
+  "description": "In memory time series statistics",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && jest",
+    "start": "nodemon --watch package.json --watch index.js --watch test.js --exec jest"
+  },
+  "keywords": [
+    "statistics",
+    "maximum",
+    "mininum",
+    "average",
+    "timeseries",
+    "buffer",
+    "date"
+  ],
+  "author": "Gerik Bonaert <dev@keyhash.eu>",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.5.0",
+    "nodemon": "^1.18.4",
+    "standard": "^12.0.1"
+  }
+}
